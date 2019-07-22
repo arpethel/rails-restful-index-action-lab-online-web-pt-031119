@@ -1,8 +1,8 @@
 class StudentsController < ApplicationController
 
   def index
-    binding.pry
-    @students = Students.all
+    # binding.pry
+    @students = Student.all
   end
 
 end
